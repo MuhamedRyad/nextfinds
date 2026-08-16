@@ -62,6 +62,35 @@ project-page URL.
 - [ ] If you add analytics or an ad network later, update the
       "Cookies & Analytics" section in `privacy.html` to name it.
 
+## Applying to Amazon Associates
+
+This site now includes Amazon's required site-wide disclosure ("As an
+Amazon Associate, I earn from qualifying purchases") in the Affiliate
+Disclosure section, plus the standard participant statement in
+`privacy.html` and `terms.html`. Each sample "View find" link also has a
+small "Paid link" tag next to it.
+
+That covers the *legal/disclosure* side. The part most applications get
+rejected on is **content depth** — Amazon (and most guides on the 2026
+program) look for real, original content, not a single landing page with
+placeholder cards. In practice that usually means:
+
+- Real product picks instead of the 6 sample entries (`SAMPLE ENTRIES` in
+  `index.html`), each with a genuine paragraph explaining why it's worth
+  buying — not just a one-line blurb.
+- Ideally more written content than one page — a handful of short
+  buying-guide or review posts (several sources suggest ~10 pieces) shows
+  Amazon reviewers this is a real, active site and not "under
+  construction."
+- A live, reachable URL at the time you apply (GitHub Pages enabled,
+  `https://muhamedryad.github.io/nextfinds/` returning the real site, not
+  a 404).
+
+None of this needs to happen before your GitHub push, but it should
+happen before you submit the Amazon Associates application — "insufficient
+original content" and "site under construction" are two of the most common
+rejection reasons.
+
 ## Local preview
 
 No build tools needed — just open `index.html` in a browser, or serve the
