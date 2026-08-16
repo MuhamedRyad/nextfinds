@@ -602,6 +602,21 @@ section {
     margin-bottom: 0;
 }
 
+.notice-plate strong {
+    color: var(--ink);
+    font-weight: 600;
+}
+
+.paid-tag {
+    display: inline-block;
+    margin-left: 8px;
+    font-family: var(--font-mono);
+    font-size: 10.5px;
+    letter-spacing: 0.3px;
+    color: var(--stone);
+    vertical-align: middle;
+}
+
 /* ==========================================================================
    Contact
    ========================================================================== */
