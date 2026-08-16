@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.nextfindsdaily.com/sitemap.xml
+Sitemap: https://muhamedryad.github.io/nextfinds/sitemap.xml
