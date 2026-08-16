@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>NextFinds Daily — A Daily Log of Things Worth Finding</title>
+
+    <meta
+        name="description"
+        content="NextFinds Daily is a hand-curated log of genuinely useful, well-made products across tech, home, outdoor, and everyday categories — no algorithm, just things worth a second look."
+    >
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.nextfindsdaily.com/">
+
+    <!-- CHANGE SOCIAL PREVIEW DETAILS HERE (and swap in a real og:image once you have one) -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="NextFinds Daily">
+    <meta property="og:title" content="NextFinds Daily — A Daily Log of Things Worth Finding">
+    <meta property="og:description" content="A hand-curated log of genuinely useful, well-made products worth a second look.">
+    <meta property="og:url" content="https://www.nextfindsdaily.com/">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="NextFinds Daily">
+    <meta name="twitter:description" content="A hand-curated log of genuinely useful, well-made products worth a second look.">
+
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <meta name="theme-color" content="#eef1ee">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,500&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <a href="#main" class="skip-link">Skip to content</a>
+
+    <!-- =========================
+         Header
+    ========================== -->
+
+    <header>
+        <div class="container navbar">
+
+            <a href="./" class="logo">
+                <svg class="logo-mark" viewBox="0 0 64 64" aria-hidden="true">
+                    <rect width="64" height="64" rx="14" fill="#16211e"/>
+                    <path d="M19 43 V23 Q19 19 23 19 H39 L46 26 V43 Q46 45 44 45 H21 Q19 45 19 43 Z"
+                          fill="none" stroke="#a97a27" stroke-width="2.6" stroke-linejoin="round"/>
+                    <circle cx="25.5" cy="26" r="2.1" fill="#a97a27"/>
+                </svg>
+                NextFinds
+                <span class="logo-tag">Daily</span>
+            </a>
+
+            <nav class="nav-links" aria-label="Primary">
+                <a href="#how">How it works</a>
+                <a href="#categories">Categories</a>
+                <a href="#finds">Finds</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+        </div>
+    </header>
+
+
+    <main id="main">
+
+        <!-- =========================
+             Hero
+        ========================== -->
+
+        <section class="hero">
+            <div class="container">
+
+                <div class="hero-content">
+
+                    <div class="eyebrow">Field Notes · Daily Log</div>
+
+                    <h1>Worth a second look.</h1>
+
+                    <p class="lede">
+                        We spend the hours digging through the internet's shelves
+                        so you don't have to — logging genuinely useful, well-made,
+                        and interesting products worth your attention.
+                    </p>
+
+                    <div class="hero-actions">
+                        <a href="#finds" class="btn btn-primary">Browse the log</a>
+                        <a href="#how" class="btn btn-secondary">How it works</a>
+                    </div>
+
+                    <div class="hero-note">
+                        Product availability, pricing, and details are set by retailers and may change.
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <div class="container">
+            <svg class="ruler" viewBox="0 0 1120 34" preserveAspectRatio="none" aria-hidden="true">
+                <line x1="0" y1="17" x2="1120" y2="17" stroke="currentColor" stroke-width="1" class="tick-minor"/>
+                <g class="tick-major">
+                    <line x1="0" y1="6" x2="0" y2="28" stroke-width="1.5"/>
+                    <line x1="280" y1="10" x2="280" y2="24" stroke-width="1.2" class="tick-minor"/>
+                    <line x1="560" y1="6" x2="560" y2="28" stroke-width="1.5"/>
+                    <line x1="840" y1="10" x2="840" y2="24" stroke-width="1.2" class="tick-minor"/>
+                    <line x1="1119" y1="6" x2="1119" y2="28" stroke-width="1.5"/>
+                </g>
+            </svg>
+        </div>
+
+
+        <!-- =========================
+             Categories / Shelves
+        ========================== -->
+
+        <section id="categories">
+            <div class="container">
+
+                <div class="section-header center reveal">
+                    <div class="eyebrow">The Shelves</div>
+                    <h2 class="section-title">A few shelves, five ways to browse.</h2>
+                    <p class="section-description">
+                        Every find gets filed onto one shelf — no clutter, and no
+                        algorithm guessing what you want to see.
+                    </p>
+                </div>
+
+                <div class="shelf-row reveal">
+
+                    <!-- SAMPLE SHELVES — rename or add/remove to match what you actually cover -->
+                    <a href="#finds" class="shelf-tab">
+                        <span class="shelf-letter">SHELF A</span>
+                        <h3>Tech &amp; Gadgets</h3>
+                        <p>Small tools that earn a spot on your desk.</p>
+                    </a>
+
+                    <a href="#finds" class="shelf-tab">
+                        <span class="shelf-letter">SHELF B</span>
+                        <h3>Home &amp; Living</h3>
+                        <p>Kitchen, workspace, and everyday-room upgrades.</p>
+                    </a>
+
+                    <a href="#finds" class="shelf-tab">
+                        <span class="shelf-letter">SHELF C</span>
+                        <h3>Outdoor &amp; Active</h3>
+                        <p>Gear built to be used, not just owned.</p>
+                    </a>
+
+                    <a href="#finds" class="shelf-tab">
+                        <span class="shelf-letter">SHELF D</span>
+                        <h3>Gifts &amp; Curiosities</h3>
+                        <p>The kind of find you didn't know you wanted.</p>
+                    </a>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- =========================
+             How it works
+        ========================== -->
+
+        <section id="how" class="section-alt">
+            <div class="container">
+
+                <div class="section-header reveal">
+                    <div class="eyebrow">How It Works</div>
+                    <h2 class="section-title">Three steps, no guesswork.</h2>
+                </div>
+
+                <div class="steps reveal">
+
+                    <div class="step">
+                        <div class="step-index">01</div>
+                        <h3>Discover</h3>
+                        <p>We look across the web for products that are actually worth writing about.</p>
+                    </div>
+
+                    <div class="step">
+                        <div class="step-index">02</div>
+                        <h3>Compare</h3>
+                        <p>Each find is checked against similar options, so what we log has held up.</p>
+                    </div>
+
+                    <div class="step">
+                        <div class="step-index">03</div>
+                        <h3>Shop</h3>
+                        <p>Follow the link to the retailer and decide for yourself — no pressure, no popups.</p>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- =========================
+             Featured finds (specimen cards)
+        ========================== -->
+
+        <section id="finds">
+            <div class="container">
+
+                <div class="section-header reveal">
+                    <div class="eyebrow">Recent Entries</div>
+                    <h2 class="section-title">This week's log.</h2>
+                    <p class="section-description">
+                        A running catalog of the newest additions, updated as we find
+                        things worth logging.
+                    </p>
+                </div>
+
+                <!--
+                    SAMPLE ENTRIES BELOW — replace title, shelf label, note, and href
+                    with real products and real affiliate links before publishing.
+                    Keep the catalog numbers sequential if you want the "No. 0142"
+                    styling to mean anything.
+                -->
+
+                <div class="finds-grid reveal">
+
+                    <article class="specimen">
+                        <div class="specimen-meta">
+                            <span class="specimen-no">No. 0142</span>
+                            <span>Shelf A — Tech</span>
+                        </div>
+                        <h3>Compact Wireless Charging Stand</h3>
+                        <p>Charges phone, earbuds, and watch at once without turning your desk into a cable drawer.</p>
+                        <a href="#" class="specimen-link">
+                            View find
+                            <svg viewBox="0 0 12 12" fill="none"><path d="M2 6h8M6 2l4 4-4 4" stroke="currentColor" stroke-width="1.4"/></svg>
+                        </a>
+                    </article>
+
+                    <article class="specimen">
+                        <div class="specimen-meta">
+                            <span class="specimen-no">No. 0143</span>
+                            <span>Shelf B — Home</span>
+                        </div>
+                        <h3>Ceramic Pour-Over Coffee Set</h3>
+                        <p>Slower than a machine, but the kind of slow that makes the morning feel intentional.</p>
+                        <a href="#" class="specimen-link">
+                            View find
+                            <svg viewBox="0 0 12 12" fill="none"><path d="M2 6h8M6 2l4 4-4 4" stroke="currentColor" stroke-width="1.4"/></svg>
+                        </a>
+                    </article>
+
+                    <article class="specimen">
+                        <div class="specimen-meta">
+                            <span class="specimen-no">No. 0144</span>
+                            <span>Shelf C — Outdoor</span>
+                        </div>
+                        <h3>Packable Rain Shell</h3>
+                        <p>Folds into its own pocket, weighs almost nothing, actually keeps the rain out.</p>
+                        <a href="#" class="specimen-link">
+                            View find
+                            <svg viewBox="0 0 12 12" fill="none"><path d="M2 6h8M6 2l4 4-4 4" stroke="currentColor" stroke-width="1.4"/></svg>
+                        </a>
+                    </article>
+
+                    <article class="specimen">
+                        <div class="specimen-meta">
+                            <span class="specimen-no">No. 0145</span>
+                            <span>Shelf D — Gifts</span>
+                        </div>
+                        <h3>Engraved Brass Bookmark</h3>
+                        <p>Small, useful, and the rare gift that doesn't end up in a drawer.</p>
+                        <a href="#" class="specimen-link">
+                            View find
+                            <svg viewBox="0 0 12 12" fill="none"><path d="M2 6h8M6 2l4 4-4 4" stroke="currentColor" stroke-width="1.4"/></svg>
+                        </a>
+                    </article>
+
+                    <article class="specimen">
+                        <div class="specimen-meta">
+                            <span class="specimen-no">No. 0146</span>
+                            <span>Shelf A — Tech</span>
+                        </div>
+                        <h3>Mechanical Travel Keyboard</h3>
+                        <p>Full-size feel in a compact frame — the kind of typing that makes you want to write more.</p>
+                        <a href="#" class="specimen-link">
+                            View find
+                            <svg viewBox="0 0 12 12" fill="none"><path d="M2 6h8M6 2l4 4-4 4" stroke="currentColor" stroke-width="1.4"/></svg>
+                        </a>
+                    </article>
+
+                    <article class="specimen">
+                        <div class="specimen-meta">
+                            <span class="specimen-no">No. 0147</span>
+                            <span>Shelf B — Home</span>
+                        </div>
+                        <h3>Adjustable Reading Light</h3>
+                        <p>Warm enough for late reading, bright enough that you'll actually finish the chapter.</p>
+                        <a href="#" class="specimen-link">
+                            View find
+                            <svg viewBox="0 0 12 12" fill="none"><path d="M2 6h8M6 2l4 4-4 4" stroke="currentColor" stroke-width="1.4"/></svg>
+                        </a>
+                    </article>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- =========================
+             About
+        ========================== -->
+
+        <section id="about" class="section-alt">
+            <div class="container">
+
+                <div class="section-header center reveal">
+                    <div class="eyebrow">About The Log</div>
+                    <h2 class="section-title">Why we started logging finds.</h2>
+                </div>
+
+                <div class="about-wrapper reveal">
+
+                    <p class="drop">
+                        Most product roundups read like they were written to fill a
+                        template, not to help you buy something. NextFinds Daily started
+                        as the opposite — a running, honest log of things across
+                        categories that turned out to be genuinely worth owning, written
+                        by people who actually looked at the alternatives first.
+                    </p>
+
+                    <p class="aside">
+                        We don't cover everything, and we don't claim to be first.
+                        Some of the links on this site are affiliate links, which we
+                        disclose below — but inclusion in the log is never for sale.
+                    </p>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- =========================
+             Affiliate Disclosure
+        ========================== -->
+
+        <section class="disclosure">
+            <div class="container">
+
+                <div class="notice-plate reveal">
+
+                    <div class="eyebrow">Notice · Affiliate Disclosure</div>
+
+                    <p>
+                        Some links on NextFinds Daily are affiliate links. If you make a
+                        purchase through one of these links, we may earn a commission at
+                        no additional cost to you.
+                    </p>
+
+                    <p>
+                        Affiliate relationships never determine which products get
+                        logged or how they're described — our opinions are our own, and
+                        product details, pricing, and availability are set by the
+                        retailer, not by us.
+                    </p>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- =========================
+             Contact
+        ========================== -->
+
+        <section id="contact" class="contact">
+            <div class="container">
+
+                <div class="contact-wrapper reveal">
+
+                    <div class="eyebrow" style="justify-content:center; margin-left:auto; margin-right:auto;">Get In Touch</div>
+                    <h2 class="section-title">Got a find worth logging?</h2>
+
+                    <p>
+                        Questions about the site, a product suggestion, or a correction
+                        on something we published — we read everything that comes in.
+                    </p>
+
+                    <div class="contact-actions">
+                        <!-- CHANGE EMAIL HERE -->
+                        <a href="mailto:contact@nextfindsdaily.com" class="btn btn-primary">
+                            Email us
+                        </a>
+                        <a href="mailto:contact@nextfindsdaily.com?subject=Find%20suggestion" class="btn btn-secondary">
+                            Suggest a find
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- =========================
+         Footer
+    ========================== -->
+
+    <footer>
+        <div class="container">
+
+            <div class="footer-top">
+
+                <div>
+                    <a href="./" class="logo">
+                        <svg class="logo-mark" viewBox="0 0 64 64" aria-hidden="true">
+                            <rect width="64" height="64" rx="14" fill="#16211e"/>
+                            <path d="M19 43 V23 Q19 19 23 19 H39 L46 26 V43 Q46 45 44 45 H21 Q19 45 19 43 Z"
+                                  fill="none" stroke="#a97a27" stroke-width="2.6" stroke-linejoin="round"/>
+                            <circle cx="25.5" cy="26" r="2.1" fill="#a97a27"/>
+                        </svg>
+                        NextFinds
+                        <span class="logo-tag">Daily</span>
+                    </a>
+                    <p class="footer-blurb">
+                        A running, hand-curated log of products worth a second look —
+                        no algorithm, no filler.
+                    </p>
+                </div>
+
+                <div class="footer-links">
+                    <a href="privacy.html">Privacy Policy</a>
+                    <a href="terms.html">Terms of Use</a>
+                    <a href="#contact">Contact</a>
+                </div>
+
+            </div>
+
+            <div class="footer-bottom">
+                <span>&copy; 2026 NextFinds Daily. All rights reserved.</span>
+                <span>Logged by hand, not by algorithm.</span>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
