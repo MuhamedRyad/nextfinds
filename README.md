@@ -52,9 +52,10 @@ project-page URL.
 - [ ] Replace the contact email (`contact@nextfindsdaily.com`) in
       `index.html`, `privacy.html`, and `terms.html` — search for
       `CHANGE EMAIL HERE`.
-- [ ] Replace the six sample "finds" in `index.html` (`#finds` section)
-      with real products and real affiliate links — search for
-      `SAMPLE ENTRIES`.
+- [ ] The 12 "finds" now link to real Amazon product pages — once
+      approved for Amazon Associates, add your tracking tag
+      (`?tag=YOUR-ASSOCIATE-ID-20`) to each `href` in the `#finds` section
+      of `index.html` so clicks are attributed to your account.
 - [ ] Update `canonical`, `og:url`, and the URLs in `robots.txt` /
       `sitemap.xml` to your real domain once you have one.
 - [ ] Add a real `og:image` (1200×630px works well) for social link
@@ -91,9 +92,13 @@ worth keeping the Journal active rather than treating it as done:
   that stops publishing right after the Amazon application tends to read
   as "built for the application," which is the opposite of what you want
   reviewers to see.
-- The 6 sample "finds" on the homepage (`SAMPLE ENTRIES` in `index.html`)
-  still need real products and real affiliate links before you apply —
-  see the checklist above.
+- The 12 "finds" on the homepage are now real products with real Amazon
+  product URLs (verified by search, one per shelf category × 3). **They
+  don't carry your Associates tracking tag yet** — once your application
+  is approved, add `?tag=YOUR-ASSOCIATE-ID-20` to each `href` in the
+  `#finds` section of `index.html` so clicks are attributed to your
+  account and count toward the 3-sale/180-day requirement. Until then
+  they're plain, working Amazon links, not affiliate links.
 - A live, reachable URL at the time you apply (GitHub Pages enabled,
   `https://muhamedryad.github.io/nextfinds/` returning the real site, not
   a 404).
