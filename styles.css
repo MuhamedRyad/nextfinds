@@ -706,6 +706,228 @@ footer {
 }
 
 /* ==========================================================================
+   Journal — index listing
+   ========================================================================== */
+
+.journal-list {
+    border-top: 1px solid var(--line);
+}
+
+.journal-item {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 28px;
+    padding: 30px 0;
+    border-bottom: 1px solid var(--line);
+    transition: opacity 0.2s ease;
+}
+
+.journal-item:hover {
+    opacity: 0.72;
+}
+
+.journal-item-body {
+    max-width: 620px;
+}
+
+.journal-item-meta {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: var(--font-mono);
+    font-size: 11.5px;
+    letter-spacing: 0.4px;
+    color: var(--stone);
+    margin-bottom: 10px;
+}
+
+.journal-item-meta .shelf-pill {
+    padding: 2px 9px;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    color: var(--brass);
+}
+
+.journal-item h3 {
+    font-family: var(--font-display);
+    font-size: 21px;
+    font-weight: 700;
+    letter-spacing: -0.3px;
+    margin-bottom: 8px;
+}
+
+.journal-item p {
+    color: var(--stone);
+    font-size: 15px;
+}
+
+.journal-item-arrow {
+    flex-shrink: 0;
+    font-family: var(--font-mono);
+    font-size: 12.5px;
+    color: var(--ink);
+    white-space: nowrap;
+    margin-top: 8px;
+}
+
+/* ---- Journal teaser cards (used on the homepage) ---- */
+
+.journal-teaser {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 24px 22px 22px;
+    transition: border-color 0.2s ease, transform 0.2s ease;
+}
+
+.journal-teaser:hover {
+    border-color: var(--brass);
+    transform: translateY(-3px);
+}
+
+.journal-teaser-meta {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    letter-spacing: 0.4px;
+    color: var(--stone);
+    margin-bottom: 14px;
+}
+
+.journal-teaser h3 {
+    font-family: var(--font-display);
+    font-size: 16.5px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    letter-spacing: -0.2px;
+}
+
+.journal-teaser p {
+    font-size: 14px;
+    color: var(--stone);
+    margin-bottom: 16px;
+}
+
+.journal-teaser-link {
+    font-family: var(--font-mono);
+    font-size: 12.5px;
+    font-weight: 500;
+    color: var(--ink);
+}
+
+/* ==========================================================================
+   Journal — single post
+   ========================================================================== */
+
+.post-hero {
+    padding: 64px 0 8px;
+}
+
+.post-hero h1 {
+    font-family: var(--font-display);
+    font-size: clamp(32px, 5vw, 46px);
+    line-height: 1.1;
+    letter-spacing: -1.5px;
+    max-width: 760px;
+    margin-bottom: 18px;
+}
+
+.post-meta {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    flex-wrap: wrap;
+    font-family: var(--font-mono);
+    font-size: 12.5px;
+    letter-spacing: 0.3px;
+    color: var(--stone);
+}
+
+.post-meta .shelf-pill {
+    padding: 3px 10px;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    color: var(--brass);
+}
+
+.post-body {
+    max-width: 720px;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.post-body p {
+    font-size: 18px;
+    color: var(--ink);
+    margin-bottom: 20px;
+}
+
+.post-body p.drop::first-letter {
+    font-family: var(--font-display);
+    font-size: 58px;
+    font-weight: 700;
+    color: var(--brass);
+    float: left;
+    line-height: 0.8;
+    margin: 8px 8px 0 0;
+}
+
+.post-body h2 {
+    font-family: var(--font-display);
+    font-size: 24px;
+    letter-spacing: -0.4px;
+    margin: 40px 0 16px;
+}
+
+.post-body blockquote.pull-quote {
+    margin: 38px 0;
+    padding-left: 22px;
+    border-left: 3px solid var(--brass);
+    font-style: italic;
+    font-size: 21px;
+    line-height: 1.5;
+    color: var(--ink);
+}
+
+.post-more {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 34px 0 90px;
+    border-top: 1px solid var(--line);
+}
+
+.post-more .eyebrow {
+    margin-bottom: 20px;
+}
+
+.post-more-links {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.post-more-links a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    font-family: var(--font-display);
+    font-size: 16px;
+    font-weight: 700;
+    padding: 14px 0;
+    border-bottom: 1px solid var(--line);
+}
+
+.post-more-links a span.arrow {
+    flex-shrink: 0;
+    font-family: var(--font-mono);
+    font-size: 12.5px;
+    font-weight: 500;
+    color: var(--stone);
+}
+
+/* ==========================================================================
    Legal pages (privacy / terms)
    ========================================================================== */
 
