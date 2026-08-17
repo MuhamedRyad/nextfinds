@@ -8,6 +8,12 @@ vanilla JS file for a scroll-reveal effect.
 
 ```
 index.html      Home page
+journal.html    Journal index (list of all articles)
+what-makes-something-worth-logging.html   Journal article — Field Notes
+desk-tech-worth-keeping.html              Journal article — Shelf A (Tech)
+slowing-down-in-the-kitchen.html          Journal article — Shelf B (Home)
+packing-light-without-getting-caught-out.html  Journal article — Shelf C (Outdoor)
+the-art-of-the-small-gift.html            Journal article — Shelf D (Gifts)
 privacy.html    Privacy Policy
 terms.html      Terms of Use
 styles.css      Shared stylesheet for all pages
@@ -70,26 +76,27 @@ Disclosure section, plus the standard participant statement in
 `privacy.html` and `terms.html`. Each sample "View find" link also has a
 small "Paid link" tag next to it.
 
-That covers the *legal/disclosure* side. The part most applications get
-rejected on is **content depth** — Amazon (and most guides on the 2026
-program) look for real, original content, not a single landing page with
-placeholder cards. In practice that usually means:
+It also now has five original Journal articles (linked from the nav and
+from `journal.html`) covering each shelf plus a general "field notes"
+piece — this is the part most Amazon applications get rejected on
+("insufficient original content" / "site under construction"), so it's
+worth keeping the Journal active rather than treating it as done:
 
-- Real product picks instead of the 6 sample entries (`SAMPLE ENTRIES` in
-  `index.html`), each with a genuine paragraph explaining why it's worth
-  buying — not just a one-line blurb.
-- Ideally more written content than one page — a handful of short
-  buying-guide or review posts (several sources suggest ~10 pieces) shows
-  Amazon reviewers this is a real, active site and not "under
-  construction."
+- The five articles are dated Jul 6 – Aug 15, 2026. If you don't publish
+  around those actual dates, update the dates in each article's
+  `post-meta` block (and in `journal.html` / the homepage teaser cards)
+  so they reflect when the content really went live — don't leave dates
+  in the future relative to your actual publish date.
+- Plan to add a new article every couple of weeks after launch. A site
+  that stops publishing right after the Amazon application tends to read
+  as "built for the application," which is the opposite of what you want
+  reviewers to see.
+- The 6 sample "finds" on the homepage (`SAMPLE ENTRIES` in `index.html`)
+  still need real products and real affiliate links before you apply —
+  see the checklist above.
 - A live, reachable URL at the time you apply (GitHub Pages enabled,
   `https://muhamedryad.github.io/nextfinds/` returning the real site, not
   a 404).
-
-None of this needs to happen before your GitHub push, but it should
-happen before you submit the Amazon Associates application — "insufficient
-original content" and "site under construction" are two of the most common
-rejection reasons.
 
 ## Local preview
 
