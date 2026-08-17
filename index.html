@@ -31,6 +31,47 @@
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,500&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="styles.css">
+
+    <style>
+        /*
+          Placeholder product-icon styling.
+          These are NOT real Amazon product photos — hotlinking or scraping
+          those would violate Amazon's Associates terms. Swap the <img> or
+          <svg class="specimen-icon"> block inside each .specimen-image with
+          a real photo once you pull it via SiteStripe or the Product
+          Advertising API (see notes at the bottom of this file).
+        */
+        .specimen-image {
+            width: 100%;
+            aspect-ratio: 4 / 3;
+            border-radius: 10px;
+            background: #eef1ee;
+            border: 1px solid rgba(22, 33, 30, 0.12);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 14px;
+            overflow: hidden;
+        }
+        .specimen-icon {
+            width: 46%;
+            height: 46%;
+        }
+        .specimen-icon .icon-line {
+            fill: none;
+            stroke: #16211e;
+            stroke-width: 2.2;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+        }
+        .specimen-icon .icon-accent {
+            fill: none;
+            stroke: #a97a27;
+            stroke-width: 2.2;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+        }
+    </style>
 </head>
 
 <body>
@@ -228,11 +269,26 @@
                     second query param if the URL already has one) so clicks
                     are attributed to your account. Until then these are
                     plain, working Amazon links — not affiliate links yet.
+
+                    IMAGES: each card below has a .specimen-image block with a
+                    stylized placeholder icon (not a real product photo — see
+                    the style block in <head> for why). Swap it for a real
+                    photo via SiteStripe or the Product Advertising API once
+                    you're approved.
                 -->
 
                 <div class="finds-grid reveal">
 
                     <article class="specimen">
+                        <div class="specimen-image">
+                            <svg class="specimen-icon" viewBox="0 0 64 64" aria-hidden="true">
+                                <rect class="icon-line" x="8" y="42" width="48" height="8" rx="2"/>
+                                <path class="icon-line" d="M32 42 V20"/>
+                                <rect class="icon-accent" x="20" y="8" width="24" height="14" rx="2"/>
+                                <circle class="icon-accent" cx="14" cy="34" r="5"/>
+                                <path class="icon-line" d="M50 30 a6 6 0 1 1 -0.1 0"/>
+                            </svg>
+                        </div>
                         <div class="specimen-meta">
                             <span class="specimen-no">No. 0142</span>
                             <span>Shelf A — Tech</span>
@@ -247,6 +303,12 @@
                     </article>
 
                     <article class="specimen">
+                        <div class="specimen-image">
+                            <svg class="specimen-icon" viewBox="0 0 64 64" aria-hidden="true">
+                                <rect class="icon-line" x="6" y="20" width="52" height="24" rx="4"/>
+                                <path class="icon-accent" d="M13 27h4M21 27h4M29 27h4M37 27h4M45 27h6M13 34h32M49 34h4"/>
+                            </svg>
+                        </div>
                         <div class="specimen-meta">
                             <span class="specimen-no">No. 0143</span>
                             <span>Shelf A — Tech</span>
@@ -261,6 +323,13 @@
                     </article>
 
                     <article class="specimen">
+                        <div class="specimen-image">
+                            <svg class="specimen-icon" viewBox="0 0 64 64" aria-hidden="true">
+                                <rect class="icon-line" x="12" y="14" width="30" height="36" rx="4"/>
+                                <rect class="icon-accent" x="42" y="26" width="6" height="12" rx="1.5"/>
+                                <path class="icon-line" d="M20 26h14M20 32h14M20 38h9"/>
+                            </svg>
+                        </div>
                         <div class="specimen-meta">
                             <span class="specimen-no">No. 0144</span>
                             <span>Shelf A — Tech</span>
@@ -275,6 +344,13 @@
                     </article>
 
                     <article class="specimen">
+                        <div class="specimen-image">
+                            <svg class="specimen-icon" viewBox="0 0 64 64" aria-hidden="true">
+                                <path class="icon-line" d="M18 20 H46 L38 46 H26 Z"/>
+                                <ellipse class="icon-accent" cx="32" cy="46" rx="14" ry="4"/>
+                                <path class="icon-line" d="M22 20 q10 -8 20 0"/>
+                            </svg>
+                        </div>
                         <div class="specimen-meta">
                             <span class="specimen-no">No. 0145</span>
                             <span>Shelf B — Home</span>
@@ -289,6 +365,13 @@
                     </article>
 
                     <article class="specimen">
+                        <div class="specimen-image">
+                            <svg class="specimen-icon" viewBox="0 0 64 64" aria-hidden="true">
+                                <path class="icon-line" d="M14 30 q0 -12 12 -12 h6 q12 0 12 12 v6 q0 12 -12 12 h-6 q-12 0 -12 -12 Z"/>
+                                <path class="icon-accent" d="M44 26 h6 q3 0 3 4 t-3 4 h-6"/>
+                                <path class="icon-line" d="M20 18 v-5 M28 18 v-5"/>
+                            </svg>
+                        </div>
                         <div class="specimen-meta">
                             <span class="specimen-no">No. 0146</span>
                             <span>Shelf B — Home</span>
@@ -303,6 +386,13 @@
                     </article>
 
                     <article class="specimen">
+                        <div class="specimen-image">
+                            <svg class="specimen-icon" viewBox="0 0 64 64" aria-hidden="true">
+                                <path class="icon-line" d="M12 14 L28 30"/>
+                                <circle class="icon-line" cx="34" cy="36" r="12"/>
+                                <path class="icon-accent" d="M34 36 l14 10 M34 36 l16 -2"/>
+                            </svg>
+                        </div>
                         <div class="specimen-meta">
                             <span class="specimen-no">No. 0147</span>
                             <span>Shelf B — Home</span>
@@ -317,6 +407,13 @@
                     </article>
 
                     <article class="specimen">
+                        <div class="specimen-image">
+                            <svg class="specimen-icon" viewBox="0 0 64 64" aria-hidden="true">
+                                <path class="icon-line" d="M20 16 h24 l6 14 v22 a4 4 0 0 1 -4 4 h-28 a4 4 0 0 1 -4 -4 v-22 Z"/>
+                                <path class="icon-accent" d="M20 16 q12 10 24 0"/>
+                                <path class="icon-line" d="M26 30 v18 M38 30 v18"/>
+                            </svg>
+                        </div>
                         <div class="specimen-meta">
                             <span class="specimen-no">No. 0148</span>
                             <span>Shelf C — Outdoor</span>
@@ -331,6 +428,13 @@
                     </article>
 
                     <article class="specimen">
+                        <div class="specimen-image">
+                            <svg class="specimen-icon" viewBox="0 0 64 64" aria-hidden="true">
+                                <path class="icon-line" d="M16 24 a16 16 0 0 1 32 0 v22 a4 4 0 0 1 -4 4 h-24 a4 4 0 0 1 -4 -4 Z"/>
+                                <rect class="icon-accent" x="24" y="14" width="16" height="8" rx="2"/>
+                                <path class="icon-line" d="M22 34 h20"/>
+                            </svg>
+                        </div>
                         <div class="specimen-meta">
                             <span class="specimen-no">No. 0149</span>
                             <span>Shelf C — Outdoor</span>
@@ -345,6 +449,13 @@
                     </article>
 
                     <article class="specimen">
+                        <div class="specimen-image">
+                            <svg class="specimen-icon" viewBox="0 0 64 64" aria-hidden="true">
+                                <circle class="icon-line" cx="32" cy="32" r="10"/>
+                                <path class="icon-line" d="M14 32 h8 M42 32 h8"/>
+                                <path class="icon-accent" d="M32 32 l16 -6 -6 16 Z"/>
+                            </svg>
+                        </div>
                         <div class="specimen-meta">
                             <span class="specimen-no">No. 0150</span>
                             <span>Shelf C — Outdoor</span>
@@ -359,6 +470,13 @@
                     </article>
 
                     <article class="specimen">
+                        <div class="specimen-image">
+                            <svg class="specimen-icon" viewBox="0 0 64 64" aria-hidden="true">
+                                <circle class="icon-line" cx="32" cy="32" r="18"/>
+                                <path class="icon-accent" d="M32 24 l6 12 -6 4 -6 -4 Z"/>
+                                <path class="icon-line" d="M32 10 v6 M32 48 v6 M10 32 h6 M48 32 h6"/>
+                            </svg>
+                        </div>
                         <div class="specimen-meta">
                             <span class="specimen-no">No. 0151</span>
                             <span>Shelf D — Gifts</span>
@@ -373,6 +491,13 @@
                     </article>
 
                     <article class="specimen">
+                        <div class="specimen-image">
+                            <svg class="specimen-icon" viewBox="0 0 64 64" aria-hidden="true">
+                                <rect class="icon-line" x="14" y="10" width="36" height="44" rx="2"/>
+                                <path class="icon-accent" d="M22 10 v44"/>
+                                <path class="icon-line" d="M28 18 h16 M28 26 h16 M28 34 h16 M28 42 h10"/>
+                            </svg>
+                        </div>
                         <div class="specimen-meta">
                             <span class="specimen-no">No. 0152</span>
                             <span>Shelf D — Gifts</span>
@@ -387,6 +512,13 @@
                     </article>
 
                     <article class="specimen">
+                        <div class="specimen-image">
+                            <svg class="specimen-icon" viewBox="0 0 64 64" aria-hidden="true">
+                                <path class="icon-line" d="M46 12 L52 18 L22 48 L14 50 L16 42 Z"/>
+                                <path class="icon-accent" d="M46 12 L52 18"/>
+                                <path class="icon-line" d="M14 50 l4 -8"/>
+                            </svg>
+                        </div>
                         <div class="specimen-meta">
                             <span class="specimen-no">No. 0153</span>
                             <span>Shelf D — Gifts</span>
